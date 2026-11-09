@@ -1,0 +1,31 @@
+{
+  "number": 88,
+  "product_id": "JLZ-EDU-SK-088",
+  "candidate_id": "CAND-015",
+  "chinese_name": "课堂节奏与时间分配诊断",
+  "english_name": "Classroom Pacing Diagnostic",
+  "repository_name": "edu-classroom-pacing-diagnostic",
+  "repository_url": "https://github.com/jinlize-tech/edu-classroom-pacing-diagnostic",
+  "product_type": "Skill",
+  "category": "10 教学质量与学习证据中心",
+  "batch": 2,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "时间分布图文本",
+    "活动序列",
+    "目标保障风险"
+  ],
+  "optional_outputs": [
+    "过渡耗时",
+    "改进实验",
+    "复盘指标"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-classroom-pacing-diagnostic-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

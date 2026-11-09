@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-088/input.schema.json",
+  "title": "课堂节奏与时间分配诊断输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "classroom_timeline",
+    "lesson_objectives",
+    "lesson_duration",
+    "age_group"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "classroom_timeline": {
+      "title": "课堂时间轴",
+      "description": "活动、起止时间与观察记录",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "lesson_objectives": {
+      "title": "课堂目标",
+      "description": "关键目标与优先级",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "lesson_duration": {
+      "title": "课堂时长",
+      "description": "分钟",
+      "type": "integer",
+      "minimum": 0
+    },
+    "age_group": {
+      "title": "学生年龄或年级",
+      "description": "用于节奏基准",
+      "type": "string",
+      "minLength": 1
+    },
+    "teacher_self_review": {
+      "title": "教师自评",
+      "description": "教师对本节课节奏的判断",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

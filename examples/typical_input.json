@@ -1,0 +1,15 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "classroom_timeline": [
+    {}
+  ],
+  "lesson_objectives": [
+    {}
+  ],
+  "lesson_duration": 45,
+  "age_group": "学生年龄或年级已核对（脱敏示例）",
+  "teacher_self_review": "教师自评已核对（脱敏示例）"
+}
