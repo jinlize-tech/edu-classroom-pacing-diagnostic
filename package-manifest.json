@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-088",
   "repository_name": "edu-classroom-pacing-diagnostic",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-classroom-pacing-diagnostic-v1.0.0.zip",
-  "sha256": "9E65698C4AD5934F2CF7736E94A0EE3A7A53FE20328493ECF00728F2D1B2FE10",
-  "bytes": 39177,
+  "version": "1.0.1",
+  "package_path": "dist/edu-classroom-pacing-diagnostic-v1.0.1.zip",
+  "sha256": "2A40657B2E0393B2C6EF00E034182814124A4922EB4C62BD82D69B82AC2C3990",
+  "bytes": 40213,
   "entries": [
     "edu-classroom-pacing-diagnostic/README.md",
     "edu-classroom-pacing-diagnostic/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:05:14.923874+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-classroom-pacing-diagnostic-v1.0.0.zip",
+  "previous_package_sha256": "9E65698C4AD5934F2CF7736E94A0EE3A7A53FE20328493ECF00728F2D1B2FE10",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
