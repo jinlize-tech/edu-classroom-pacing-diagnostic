@@ -1,0 +1,16 @@
+{
+  "product_id": "JLZ-EDU-SK-088",
+  "repository_name": "edu-classroom-pacing-diagnostic",
+  "tested_source_commit": "35c26c4bbdb7db3f18054971c02529313781bfc0",
+  "tested_source_tree_sha": "db674b7260f8228796a670c497401957047fe3c0",
+  "product_version": "1.0.0",
+  "package_sha256": "9E65698C4AD5934F2CF7736E94A0EE3A7A53FE20328493ECF00728F2D1B2FE10",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "scenario_count": 12,
+  "scenario_execution_status": "MAPPED_NOT_INDIVIDUALLY_EXECUTED",
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}
