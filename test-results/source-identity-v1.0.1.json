@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-088",
+  "repository_name": "edu-classroom-pacing-diagnostic",
+  "version": "1.0.1",
+  "tested_source_commit": "8c152f70fc6ae9038bfa7ee0bc0b90a6e582b81a",
+  "tested_source_tree_sha": "4391593abfc8930df5bf78c284c0e3e7635b8a28",
+  "package_path": "dist/edu-classroom-pacing-diagnostic-v1.0.1.zip",
+  "package_sha256": "2A40657B2E0393B2C6EF00E034182814124A4922EB4C62BD82D69B82AC2C3990",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
